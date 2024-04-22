@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="color-generator" id="colorGenerator">
+            <div class="main-color-display" id="mainColorDisplay">
+                
+            </div>
+            <div class="color-display-container">
+                <div class="color-display" id="redColorDisplay"></div>
+                <div class="color-display" id="greenColorDisplay"></div>
+                <div class="color-display" id="blueColorDisplay"></div>
+            </div>
+            <div class="code-generator-container" id="colorContainerGenerator">
+                <div class="color-name-container" id="colorNameContainer">
+                    <div class="color-name" id="redColorName">RED</div>
+                    <div class="color-name" id="greenColorName">GREEN</div>
+                    <div class="color-name" id="blueColorName">BLUE</div>
+                </div>
+                <div class="sliders" id="sliders">
+                    <div class="slider"><input type="range" id="redSlider" min="0" max="255" value="128"></div>
+                    <div class="slider"><input type="range" id="greenSlider" min="0" max="255"  value="128"></input></div>
+                    <div class="slider"><input type="range" name="" id="blueSlider" min="0" max="255" value="128"></div>
+                </div>
+                <div class="color-code-container" id="colorCodeContainer">
+                    <div class="color-code" id="redHexCode"></div>
+                    <div class="color-code" id="greenHexCode"></div>
+                    <div class="color-code" id="blueHexCode"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

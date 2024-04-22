@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.color-generator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+}
+
+#mainColorDisplay{
+    height: 200px;
+    width: 200px;
+    background: red;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.code-generator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.code-generator-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 10px;
+    
+}
+
+
+
+
+#redSlider {
+    accent-color: red;
+}
+
+#greenSlider {
+    accent-color: green;
+}
+
+#blueSlider {
+    accent-color: blue;
+}
+
+input[type='range'] {
+    border: none;
+}
+
+.color-display-container {
+    display: flex;
+}
+
+.color-display {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+
+}
+
+.color-name-container, .sliders, .color-code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
